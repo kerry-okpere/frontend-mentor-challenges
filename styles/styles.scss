@@ -1,0 +1,44 @@
+section{
+    padding: 0;
+    .layout{
+        display: flex;
+        figure{
+            position: relative;
+        }
+        &__qoutes{
+            padding: 70px 0px 0 130px;
+            position: relative;
+            &--text{
+                font-size: 32px;
+                // position: absolute;
+                // width: 500px;
+            }
+            &--img{
+                position: absolute;
+                // left:
+            }
+        }
+        &__image-bg{
+            position: relative;
+            width: 585px;
+            height: auto;
+        }
+        &__image{
+            position: absolute;
+            width: 440px;
+            height: auto;
+            top: 50px;
+            right: 60px;
+            border-radius: 10px;
+        }
+
+    }
+    .bg-illustration{
+        margin: 0;
+        padding: 0;
+        img{
+            margin-left: -8px;
+        }
+    }
+    
+}

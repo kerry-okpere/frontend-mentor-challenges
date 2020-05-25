@@ -1,0 +1,41 @@
+section {
+  padding: 0;
+}
+section .layout {
+  display: flex;
+}
+section .layout figure {
+  position: relative;
+}
+section .layout__qoutes {
+  padding: 70px 0px 0 130px;
+  position: relative;
+}
+section .layout__qoutes--text {
+  font-size: 32px;
+}
+section .layout__qoutes--img {
+  position: absolute;
+}
+section .layout__image-bg {
+  position: relative;
+  width: 585px;
+  height: auto;
+}
+section .layout__image {
+  position: absolute;
+  width: 440px;
+  height: auto;
+  top: 50px;
+  right: 60px;
+  border-radius: 10px;
+}
+section .bg-illustration {
+  margin: 0;
+  padding: 0;
+}
+section .bg-illustration img {
+  margin-left: -8px;
+}
+
+/*# sourceMappingURL=styles.css.map */
