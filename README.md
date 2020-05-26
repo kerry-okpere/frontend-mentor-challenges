@@ -1,9 +1,7 @@
 # Frontend-Mentor-Challenges
----
 This repository contains different front-end challenges
 
 ## To view Challenges 
----
 1. Clone the repository
 2. Install http-server or any server of your choice
 3. Run ```npm install -g sass``` to install sass globally
