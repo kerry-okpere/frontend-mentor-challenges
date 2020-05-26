@@ -1,0 +1,84 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    // overflow-x: hidden;
+    box-sizing: border-box;
+}
+section{
+    padding: 40px;
+    .layout{
+        display: flex;
+        &__qoutes{
+            padding: 70px 0px 60px 130px;
+            position: relative;
+            font-family: 'Inter', sans-serif;
+            &--text{
+                font-size: 32px;
+                font-weight: 300;
+                position: relative ;
+                width: 630px;
+                z-index: 10;
+                color: hsl(240, 38%, 20%);
+            }
+            &--img{
+                padding-left: 60px;
+                position: relative;
+                bottom: -65px;
+                width:80px;
+            }
+            &--name{
+                color: hsl(240, 38%, 20%);
+                font-weight: 700;
+            }
+            &--role{
+                font-weight: 500;
+                color: hsl(240, 18%, 77%);
+            }
+        }
+        &__arrow{
+            position: relative;
+            top: -60px;
+            left: 80px;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            border-radius: 50px;
+            width: 55px;
+            padding: 13px 10px 10px;
+            &--prev{
+                width: 9px;
+            }
+            &--next{
+                width: 10px;
+            }
+        }
+        &__image{
+            position: relative;
+            margin: 0;
+            margin-left: -80px;
+            &--bg{
+                position: relative;
+                width: 560px;
+                height: auto;
+            }
+            &--person{
+                box-shadow: 0px 60px 50px -29px rgba(0, 0, 0, 0.4)  ;
+                position: absolute;
+                width: 440px;
+                height: auto;
+                top: 50px;
+                right: 100px;
+                border-radius: 10px;
+            }
+        }
+    }
+    .bg-illustration{
+        margin: -70px 0 0 -30px;
+        padding: 0;
+        img{
+            margin-left: -8px;
+        }
+    }
+    
+}
