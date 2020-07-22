@@ -4,8 +4,8 @@
   "description": "frontend challenges",
   "main": "index.js",
   "scripts": {
-    "start": "http-server",
-    "build-css": "node-sass components/ArticlePreview/styles/index.scss components/ArticlePreview/styles/index.css ",
+    "start": "npm run build-css && http-server",
+    "build-css": "node-sass --watch components/ArticlePreview/styles/index.scss components/ArticlePreview/styles/index.css ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
